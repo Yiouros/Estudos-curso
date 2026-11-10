@@ -1,0 +1,47 @@
+body{ /* Adicione esta regra para definir o estilo do corpo da página */
+    box-sizing: border-box; /* Adicione esta linha para incluir o padding e a borda no tamanho total do elemento */
+    background-color: grey; /* Altere a cor de fundo para cinza */
+}
+
+p{ /* Adicione esta regra para definir o estilo dos parágrafos */
+    color: #333333; /* Altere a cor do texto para um tom de cinza escuro */
+    font-size: 16px; /* Altere o tamanho da fonte para 16 pixels */
+    line-height: 1.6; /* Adicione esta linha para aumentar o espaçamento entre as linhas */
+    font-family: Arial, sans-serif; /* Altere a fonte para Arial ou uma fonte sans-serif */
+}
+
+h1{ /* Adicione esta regra para definir o estilo dos títulos de nível 1 */
+    color: white; /* Altere a cor do texto para branco */
+    font-size: 30px; /* Altere o tamanho da fonte para 30 pixels */
+    font-family: Arial, sans-serif; /* Altere a fonte para Arial ou uma fonte sans-serif */
+}
+
+h2{
+    color: rgb(104, 104, 58);
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+}
+
+h3{
+    color: rgb(71, 75, 119);
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.container{ /* Adicione esta regra para definir o estilo do container */
+    display: flex; /* Adicione esta linha para tornar o container um flex container */
+    flex-direction: row; /* Altere para 'row' para que os elementos fiquem lado a lado */
+    flex-wrap: wrap; /* Adicione esta linha para permitir que os elementos quebrem para a próxima linha se necessário */
+    justify-content: flex-start; /* Altere para 'flex-start' para alinhar os elementos à esquerda (existem os flex-start, center, end) */
+    justify-content: space-evenly; /* Altere para 'space-evenly' para distribuir o espaço uniformemente entre os elementos ( existem os space-between, space-around e space-evenly) */
+    align-items: flex-start; /* Altere para 'flex-start' para alinhar os elementos ao topo do container (existem os flex-start, center, end) */
+
+}
+
+.card-servico{ 
+    max-width: 350px; /* Altere a largura máxima para 350 pixels */
+    background-color: #ffffff; /* Altere a cor de fundo para branco */
+    padding: 24px; /* Altere o preenchimento para 24 pixels */
+    border-radius: 12px; /* Altere o raio da borda para 12 pixels */
+    margin: 30px; /* Altere a margem para 30 pixels */
+}
